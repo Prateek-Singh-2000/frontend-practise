@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+	text-align: center;
+	padding: 10px;
+	background-color: #f4f4f4;
+}
+
+header img {
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	margin-bottom: 10px;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+section {
+	display: flex;
+	flex-direction: column;
+	margin: 20px;
+	background-color: #e4e4e4;
+	padding: 10px;
+}
+
+#bio h2 {
+	background-color: #e4e4e4;
+}
+
+#intro {
+	margin: 30px;
+	background-color: #e4e4e4;
+	border-style: dotted;
+	border-width: 2px;
+}
