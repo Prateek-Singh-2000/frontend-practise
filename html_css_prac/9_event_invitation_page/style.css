@@ -1,0 +1,41 @@
+body {
+	background-color: #e8f4f8;
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.invitation-body {
+	background-color: #ffffff;
+	border-radius: 10px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+	padding: 20px;
+	width: 100%;
+	max-width: 500px;
+	margin: 20px;
+}
+
+.venue, .date-time, .description {
+	margin: 20px 0;
+	font-size: 1rem;
+}
+
+.rsvp-button {
+	background-color: #4CAF50;
+	border: none;
+	border-radius: 5px;
+	color: white;
+	font-size: 1rem;
+	padding: 10px 20px;
+	cursor: pointer;
+	transition: background-color 0.3s;
+}
+
+.rsvp-button:hover {
+	background-color: #45a049;
+}
